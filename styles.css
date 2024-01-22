@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(to right, #faf7b1, #faa0f7);
+    height: 100%;
+}
+
+.navbar {
+    background-color: #eb6434;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
+
+.click-me-btn-1 {
+    background-color: #eb6434;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px solid;
+    color: #ffffff;
+}
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.text-card {
+    width: 46vw;
+}
+
+.card-4 {
+    background-color: #eb6434;
+    width: 260px;
+    height: 120px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60vh;
+    padding: 30px;
+}
+
+.p {
+    margin: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+    .image-1 {
+        display: none;
+    }
+
+    .image-2 {
+        height: 50vh;
+        width: 46vw;
+        flex-grow: 1;
+    }
+
+    .card-3 {
+        flex-grow: 1;
+        gap: 10px;
+    }
+
+    .card-2 {
+        height: 60vh;
+    }
+
+    .i1 {
+        width: 22vw;
+        height: 30vh;
+        flex-grow: 1;
+    }
+
+    .i2 {
+        width: 22vw;
+        height: 30vh;
+        flex-grow: 1;
+    }
+
+    .i3 {
+        width: 22vw;
+        height: 61vh;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .a {
+        display: none;
+    }
+
+    .icon {
+        margin-left: auto;
+    }
+
+    .navbar {
+        padding: 30px;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .text-card {
+        width: 100%;
+        flex-shrink: 2;
+    }
+
+    .image-card-1 {
+        width: 100%;
+        flex-shrink: 2;
+    }
+
+    .image-1 {
+        height: 40vh;
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .image-2 {
+        display: none;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+        height: 100%;
+    }
+
+    .card-2 {
+        width: 86vw;
+        height: 60vh;
+        flex-shrink: 2;
+        padding: 20px;
+    }
+
+    .card-3 {
+        flex-grow: 1;
+        flex-shrink: 2;
+        gap: 10px;
+    }
+
+    .i1 {
+        height: 29.3vh;
+        width: 40vw;
+        flex-shrink: 2;
+    }
+
+    .i2 {
+        height: 29.4vh;
+        width: 40vw;
+        flex-shrink: 2;
+    }
+
+    .i3 {
+        height: 60vh;
+        width: 40vw;
+        flex-grow: 1;
+        flex-shrink: 2;
+    }
+
+    .card-4 {
+        background-color: #eb6434;
+        height: 100px;
+        margin-bottom: 20px;
+        flex-shrink: 2;
+        margin-top: 20px;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1200px) {
+    .container-1 {
+        height: 60vh;
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .image-card-1 {
+        display: none;
+    }
+
+    .image-2 {
+        height: 50vh;
+        width: 46vw;
+        flex-grow: 1;
+    }
+
+    .text-card {
+        width: 46vw;
+    }
+
+    .container-2 {
+        padding: 30px;
+    }
+
+    .card-2 {
+        width: 46vw;
+        height: 35vh;
+        flex-shrink: 2;
+    }
+
+    .card-3 {
+        flex-grow: 1;
+        gap: 10px;
+    }
+
+    .i1 {
+        width: 22vw;
+        height: 180px;
+    }
+
+    .i2 {
+        width: 22vw;
+        height: 180px;
+        flex-grow: 1;
+    }
+
+    .i3 {
+        width: 22vw;
+        height: 370px;
+        flex-grow: 1;
+    }
+
+    .card-4 {
+        margin-left: 20px;
+        width: 260px;
+    }
+}
